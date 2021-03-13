@@ -146,7 +146,7 @@ module.exports = {
   // see => https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa
   // https://developers.google.com/web/tools/workbox/modules/workbox-webpack-plugin
   pwa: {
-    name: 'Arya - 在线 Markdown 编辑器',
+    name: '在线 Markdown 编辑器',
     themeColor: '#4DBA87',
     msTileColor: '#000000',
     appleMobileWebAppCapable: 'yes',
