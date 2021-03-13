@@ -181,7 +181,10 @@ ${echartsDemoJsonStr}
 | 网站监控 | [https://tjys.now.sh](https://tjys.now.sh) |2020-05-16|
 | 云生网盘 | [https://tjys.cf](https://tjys.cf) |2021-05-16|
 
-### 9. 更详细语法说明
+### 9. 支持部分站点、视频、音频解析
+[飞雪连天射白鹿，笑书神侠倚碧鸳](https://img.hacpai.com/file/2018/11/-97d5cec5.mp4)
+
+### 10. 更详细语法说明
 
 想要查看更详细的语法说明，可以参考这份 [Markdown 资源列表](https://github.com/nicejade/nice-front-end-tutorial/blob/master/tutorial/markdown-tutorial.md)，涵盖入门至进阶教程，以及资源、平台等信息，能让您对她有更深的认知。
 
