@@ -48,28 +48,20 @@ const echartsConf = {
 
 const echartsDemoJsonStr = JSON.stringify(echartsConf, null, 2)
 
-export default `# 欢迎使用 Vditor Markdown 编辑阅读器
+export default `# 欢迎使用 \`Arya\` 在线 Markdown 编辑器
 
-[vditor](https://vditor.vercel.app) 是一款浏览器端的 Markdown 编辑器，支持所见即所得、即时渲染（类似 Typora）和分屏预览模式。它使用 TypeScript 实现，支持原生 JavaScript、Vue、React 和 Angular。您可以使用Vditor Markdown：
-
-> * 整理知识，学习笔记
-> * 发布日记，杂文，所见所想
-> * 撰写发布技术文稿（代码支持）
-> * 撰写发布学术论文（LaTeX 公式支持）
-
-![Vditor-markdown-logo](https://b3logfile.com/tag/Vditor-PE4wB9G.png?imageView2/2/w/96/h/96/q/100)
+[Arya](https://markdown.lovejade.cn/?utm_source=markdown.lovejade.cn)，是一款基于 \`Vue\`、\`Vditor\`，为未来而构建的在线 Markdown 编辑器；轻量且强大：内置粘贴 HTML 自动转换为 Markdown，支持流程图、甘特图、时序图、任务列表，可导出携带样式的图片、PDF、微信公众号特制的 HTML 等等。
 
 ---
 
 ## 如何使用
 
-**微注**：清空目前这份默认文档，即处于可使用态。[vditor](https://vditor.vercel.app) 另一大优点在于：编辑内容只会在您本地进行保存，不会上传您的数据至服务器，**绝不窥测用户个人隐私，可放心使用**；Github 源码：[markdown-online-editor](https://github.com/nicejade/markdown-online-editor)，部分功能仍在开发🚧，敬请期待。
+**微注**：清空目前这份默认文档，即处于可使用态。[Arya](https://markdown.lovejade.cn/?utm_source=markdown.lovejade.cn) 另一大优点在于：编辑内容只会在您本地进行保存，不会上传您的数据至服务器，**绝不窥测用户个人隐私，可放心使用**；Github 源码：[markdown-online-editor](https://github.com/nicejade/markdown-online-editor)，部分功能仍在开发🚧，敬请期待。
 
-默认为[所见即所得](https://ld246.com/article/1577370404903?utm_source=github.com)模式，可通过 `⌘-⇧-M`（`Ctrl-⇧-M`）进行切换；或通过以下方式：
-
-- 所见即所得：`⌘-⌥-7`（`Ctrl-alt-7`）；
-- 即时渲染：`⌘-⌥-8`（`Ctrl-alt-8`）；
-- 分屏渲染：`⌘-⌥-9`（`Ctrl-alt-9`）；
+默认为[所见即所得](https://hacpai.com/article/1577370404903?utm_source=github.com)模式，可通过 \`⌘-⇧-M\`（\`Ctrl-⇧-M\`）进行切换；或通过以下方式：
+- 所见即所得：\`⌘-⌥-7\`（\`Ctrl-alt-7\`）；
+- 即时渲染：\`⌘-⌥-8\`（\`Ctrl-alt-8\`）；
+- 分屏渲染：\`⌘-⌥-9\`（\`Ctrl-alt-9\`）；
 
 ### PPT 预览
 
@@ -177,14 +169,11 @@ ${echartsDemoJsonStr}
 
 | 作品名称        | 在线地址   |  上线日期  |
 | :--------  | :-----  | :----:  |
-| 云生博客 | [https://www.qikaile.tk](https://www.qikaile.tk) |2020-03-14|
-| 网站监控 | [https://tjys.now.sh](https://tjys.now.sh) |2020-05-16|
-| 云生网盘 | [https://tjys.cf](https://tjys.cf) |2021-05-16|
+| 倾城之链 | [https://nicelinks.site](https://nicelinks.site/??utm_source=markdown.lovejade.cn) |2017-09-20|
+| 晚晴幽草轩 | [https://jeffjade.com](https://jeffjade.com/??utm_source=markdown.lovejade.cn) |2014-09-20|
+| 静轩之别苑 | [http://quickapp.lovejade.cn](http://quickapp.lovejade.cn/??utm_source=markdown.lovejade.cn) |2019-01-12|
 
-### 9. 支持部分站点、视频、音频解析
-[飞雪连天射白鹿，笑书神侠倚碧鸳](https://img.hacpai.com/file/2018/11/-97d5cec5.mp4)
-
-### 10. 更详细语法说明
+### 9. 更详细语法说明
 
 想要查看更详细的语法说明，可以参考这份 [Markdown 资源列表](https://github.com/nicejade/nice-front-end-tutorial/blob/master/tutorial/markdown-tutorial.md)，涵盖入门至进阶教程，以及资源、平台等信息，能让您对她有更深的认知。
 
