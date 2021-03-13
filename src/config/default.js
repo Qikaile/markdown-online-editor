@@ -3,8 +3,8 @@
 const echartsConf = {
   backgroundColor: '#212121',
   title: {
-    text: '「晚晴幽草轩」访问来源',
-    subtext: '2019 年 6 月份',
+    text: '「云生博客」访问来源',
+    subtext: '2020 年 6 月份',
     x: 'center',
     textStyle: {
       color: '#f2f2f2'
@@ -48,20 +48,28 @@ const echartsConf = {
 
 const echartsDemoJsonStr = JSON.stringify(echartsConf, null, 2)
 
-export default `# 欢迎使用 \`Arya\` 在线 Markdown 编辑器
+export default `# 欢迎使用 Vditor Markdown 编辑阅读器
 
-[Arya](https://markdown.lovejade.cn/?utm_source=markdown.lovejade.cn)，是一款基于 \`Vue\`、\`Vditor\`，为未来而构建的在线 Markdown 编辑器；轻量且强大：内置粘贴 HTML 自动转换为 Markdown，支持流程图、甘特图、时序图、任务列表，可导出携带样式的图片、PDF、微信公众号特制的 HTML 等等。
+[vditor](https://vditor.vercel.app) 是一款浏览器端的 Markdown 编辑器，支持所见即所得、即时渲染（类似 Typora）和分屏预览模式。它使用 TypeScript 实现，支持原生 JavaScript、Vue、React 和 Angular。您可以使用Vditor Markdown：
+
+> * 整理知识，学习笔记
+> * 发布日记，杂文，所见所想
+> * 撰写发布技术文稿（代码支持）
+> * 撰写发布学术论文（LaTeX 公式支持）
+
+![Vditor-markdown-logo](https://b3logfile.com/tag/Vditor-PE4wB9G.png?imageView2/2/w/96/h/96/q/100)
 
 ---
 
 ## 如何使用
 
-**微注**：清空目前这份默认文档，即处于可使用态。[Arya](https://markdown.lovejade.cn/?utm_source=markdown.lovejade.cn) 另一大优点在于：编辑内容只会在您本地进行保存，不会上传您的数据至服务器，**绝不窥测用户个人隐私，可放心使用**；Github 源码：[markdown-online-editor](https://github.com/nicejade/markdown-online-editor)，部分功能仍在开发🚧，敬请期待。
+**微注**：清空目前这份默认文档，即处于可使用态。[vditor](https://vditor.vercel.app) 另一大优点在于：编辑内容只会在您本地进行保存，不会上传您的数据至服务器，**绝不窥测用户个人隐私，可放心使用**；Github 源码：[markdown-online-editor](https://github.com/nicejade/markdown-online-editor)，部分功能仍在开发🚧，敬请期待。
 
-默认为[所见即所得](https://hacpai.com/article/1577370404903?utm_source=github.com)模式，可通过 \`⌘-⇧-M\`（\`Ctrl-⇧-M\`）进行切换；或通过以下方式：
-- 所见即所得：\`⌘-⌥-7\`（\`Ctrl-alt-7\`）；
-- 即时渲染：\`⌘-⌥-8\`（\`Ctrl-alt-8\`）；
-- 分屏渲染：\`⌘-⌥-9\`（\`Ctrl-alt-9\`）；
+默认为[所见即所得](https://ld246.com/article/1577370404903?utm_source=github.com)模式，可通过 `⌘-⇧-M`（`Ctrl-⇧-M`）进行切换；或通过以下方式：
+
+- 所见即所得：`⌘-⌥-7`（`Ctrl-alt-7`）；
+- 即时渲染：`⌘-⌥-8`（`Ctrl-alt-8`）；
+- 分屏渲染：`⌘-⌥-9`（`Ctrl-alt-9`）；
 
 ### PPT 预览
 
@@ -169,9 +177,9 @@ ${echartsDemoJsonStr}
 
 | 作品名称        | 在线地址   |  上线日期  |
 | :--------  | :-----  | :----:  |
-| 倾城之链 | [https://nicelinks.site](https://nicelinks.site/??utm_source=markdown.lovejade.cn) |2017-09-20|
-| 晚晴幽草轩 | [https://jeffjade.com](https://jeffjade.com/??utm_source=markdown.lovejade.cn) |2014-09-20|
-| 静轩之别苑 | [http://quickapp.lovejade.cn](http://quickapp.lovejade.cn/??utm_source=markdown.lovejade.cn) |2019-01-12|
+| 云生博客 | [https://www.qikaile.tk](https://www.qikaile.tk) |2020-03-14|
+| 网站监控 | [https://tjys.now.sh](https://tjys.now.sh) |2020-05-16|
+| 云生网盘 | [https://tjys.cf](https://tjys.cf) |2021-05-16|
 
 ### 9. 更详细语法说明
 
@@ -181,3 +189,10 @@ ${echartsDemoJsonStr}
 
 最新更新于 2019.08.21
 `
+[^LaTeX]: 支持 **LaTeX** 编辑显示支持，例如：$\sum_{i=1}^n a_i=0$， 访问 [MathJax][4] 参考更多使用方法。
+[^code]: 代码高亮功能支持包括 Java, Python, JavaScript 在内的，**四十一**种主流编程语言。
+
+[1]: https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown
+[2]: https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-高阶语法手册
+[3]: http://weibo.com/ghosert
+[4]: http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
