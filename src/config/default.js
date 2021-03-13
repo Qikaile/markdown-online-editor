@@ -48,7 +48,7 @@ const echartsConf = {
 
 const echartsDemoJsonStr = JSON.stringify(echartsConf, null, 2)
 
-export default `# 欢迎使用在线 Markdown 编辑器
+export default `# 欢迎使用在线 Vditor Markdown 编辑器
 
 [vditor](https://vditor.vercel.app) 是一款浏览器端的 Markdown 编辑器，支持所见即所得、即时渲染（类似 Typora）和分屏预览模式。它使用 TypeScript 实现，支持原生 JavaScript、Vue、React 和 Angular。您可以使用Vditor Markdown：
 
@@ -62,7 +62,7 @@ export default `# 欢迎使用在线 Markdown 编辑器
 
 ## 如何使用
 
-**微注**：清空目前这份默认文档，即处于可使用态。[Arya](https://markdown.lovejade.cn/?utm_source=markdown.lovejade.cn) 另一大优点在于：编辑内容只会在您本地进行保存，不会上传您的数据至服务器，**绝不窥测用户个人隐私，可放心使用**；Github 源码：[markdown-online-editor](https://github.com/nicejade/markdown-online-editor)，部分功能仍在开发🚧，敬请期待。
+**微注**：清空目前这份默认文档，即处于可使用态。[vditor](https://vditor.vercel.app) 另一大优点在于：编辑内容只会在您本地进行保存，不会上传您的数据至服务器，**绝不窥测用户个人隐私，可放心使用**；Github 源码：[markdown-online-editor](https://github.com/nicejade/markdown-online-editor)，部分功能仍在开发🚧，敬请期待。
 
 默认为[所见即所得](https://hacpai.com/article/1577370404903?utm_source=github.com)模式，可通过 \`⌘-⇧-M\`（\`Ctrl-⇧-M\`）进行切换；或通过以下方式：
 - 所见即所得：\`⌘-⌥-7\`（\`Ctrl-alt-7\`）；
