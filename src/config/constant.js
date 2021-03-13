@@ -1,6 +1,6 @@
 /** @format */
 
-export const appTitle = 'Arya - 在线 Markdown 编辑器'
+export const appTitle = '在线 Markdown 编辑器'
 
 export const exportTextMap = {
   '/export/png': '导出 PNG',
