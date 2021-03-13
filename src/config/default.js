@@ -48,10 +48,16 @@ const echartsConf = {
 
 const echartsDemoJsonStr = JSON.stringify(echartsConf, null, 2)
 
-export default `# 欢迎使用 \`Arya\` 在线 Markdown 编辑器
+export default `# 欢迎使用在线 Markdown 编辑器
 
-[Arya](https://markdown.lovejade.cn/?utm_source=markdown.lovejade.cn)，是一款基于 \`Vue\`、\`Vditor\`，为未来而构建的在线 Markdown 编辑器；轻量且强大：内置粘贴 HTML 自动转换为 Markdown，支持流程图、甘特图、时序图、任务列表，可导出携带样式的图片、PDF、微信公众号特制的 HTML 等等。
+[vditor](https://vditor.vercel.app) 是一款浏览器端的 Markdown 编辑器，支持所见即所得、即时渲染（类似 Typora）和分屏预览模式。它使用 TypeScript 实现，支持原生 JavaScript、Vue、React 和 Angular。您可以使用Vditor Markdown：
 
+> * 整理知识，学习笔记
+> * 发布日记，杂文，所见所想
+> * 撰写发布技术文稿（代码支持）
+> * 撰写发布学术论文（LaTeX 公式支持）
+
+![Vditor-markdown-logo](https://b3logfile.com/tag/Vditor-PE4wB9G.png?imageView2/2/w/96/h/96/q/100)
 ---
 
 ## 如何使用
