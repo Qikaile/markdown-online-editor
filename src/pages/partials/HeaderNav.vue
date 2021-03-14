@@ -12,7 +12,7 @@
       </a>
       <div class="button-group">
         <a
-          href="https://www.qikaile/tk/about"
+          href="https://www.qikaile.tk/about"
           class="header-link"
         >
           <span class="hint--bottom" aria-label="关于作者">
