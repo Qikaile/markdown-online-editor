@@ -4,7 +4,7 @@
   <section class="header-wrapper">
     <h1 class="header-area">
       <a
-        href="/"
+        href="https://markdown.lovejade.cn/?utm_sourece=markdown.lovejade.cn&pid=main-title"
         class="header-link"
       >
         <img class="mark-markdown" src="@assets/images/markdown.png" alt="在线 Markdown 编辑器" />
@@ -12,7 +12,7 @@
       </a>
       <div class="button-group">
         <a
-          href="https://www.qikaile.tk/about"
+          href="https://www.jeffjade.com/about-me/?utm_sourece=markdown.lovejade.cn&pid=header"
           class="header-link"
         >
           <span class="hint--bottom" aria-label="关于作者">
@@ -20,12 +20,12 @@
           </span>
         </a>
         <router-link to="/about-arya?markdown.lovejade.cn&pid=header" class="header-link">
-          <span class="hint--bottom" aria-label="关于Vditor">
+          <span class="hint--bottom" aria-label="关于 Arya">
             <icon class="header-icon" name="document" />
           </span>
         </router-link>
         <a
-          href="https://box.tjys.ml"
+          href="https://www.lovejade.cn/zh/works/?utm_sourece=markdown.lovejade.cn&pid=header"
           class="header-link"
           target="_blank"
           rel="noopener"
@@ -35,10 +35,10 @@
           </span>
         </a>
         <a
-          href="https://github.com/Qikaile/markdown-online-editor"
+          href="https://github.lovejade.cn/?utm_sourece=markdown.lovejade.cn&pid=header"
           class="header-link"
         >
-          <span class="hint--bottom" aria-label="Github 仓库">
+          <span class="hint--bottom" aria-label="作者 Github">
             <icon class="header-icon" name="github" />
           </span>
         </a>
