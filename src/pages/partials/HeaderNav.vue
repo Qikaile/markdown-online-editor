@@ -19,7 +19,7 @@
             <icon class="header-icon" name="author" />
           </span>
         </a>
-        <router-link to="https://b3log.org/vditor/" class="header-link">
+        <router-link to="/about-arya?markdown.lovejade.cn&pid=header" class="header-link">
           <span class="hint--bottom" aria-label="关于Vditor">
             <icon class="header-icon" name="document" />
           </span>
