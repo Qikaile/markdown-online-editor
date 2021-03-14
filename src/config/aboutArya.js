@@ -10,20 +10,6 @@ export default `# [vditor](https://vditor.vercel.app) - 在线 Markdown 编辑�
 > * 撰写发布学术论文（LaTeX 公式支持）
 
 ![Vditor-markdown-logo](https://b3logfile.com/tag/Vditor-PE4wB9G.png?imageView2/2/w/96/h/96/q/100)
---------------------
-## 如何使用
-
-**微注**：清空目前这份默认文档，即处于可使用态。[vditor](https://vditor.vercel.app) 另一大优点在于：编辑内容只会在您本地进行保存，不会上传您的数据至服务器，**绝不窥测用户个人隐私，可放心使用**；Github 源码：[markdown-online-editor](https://github.com/nicejade/markdown-online-editor)，部分功能仍在开发🚧，敬请期待。
-
-默认为[所见即所得](https://hacpai.com/article/1577370404903?utm_source=github.com)模式，可通过 `⌘-⇧-M`（`Ctrl-⇧-M`）进行切换；或通过以下方式：
-
-- 所见即所得：`⌘-⌥-7`（`Ctrl-alt-7`）；
-- 即时渲染：`⌘-⌥-8`（`Ctrl-alt-8`）；
-- 分屏渲染：`⌘-⌥-9`（`Ctrl-alt-9`）；
-
-### PPT 预览
-
-如果您用作 `PPT` 预览（入口在`设置`中），需要注意，这里暂还不能支持各种图表的渲染；您可以使用 `---` 来定义水平方向上幻灯片，用 `--` 来定义垂直幻灯片；更多设定可以参见 [RevealJs 文档](https://github.com/hakimel/reveal.js#table-of-contents)。
 
 ---
 
