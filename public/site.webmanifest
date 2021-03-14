@@ -11,5 +11,5 @@
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone",
-    "start_url": "https://markdown.lovejade.cn/?utm_source=device-screen"
+    "start_url": "/"
 }
