@@ -1,40 +1,31 @@
 /** @format */
 
-export default `# [Arya](https://markdown.lovejade.cn/?utm_source=markdown.lovejade.cn&pid=about-arya) - 在线 Markdown 编辑器
+export default `# [vditor](https://vditor.vercel.app) - 在线 Markdown 编辑器
 
-[Arya](https://markdown.lovejade.cn/?utm_source=markdown.lovejade.cn&pid=about-arya)，是一款基于 [Vue](https://nicelinks.site/post/5b1a221c0526c920d6dfaada)、[Vditor](https://hacpai.com/tag/vditor/?utm_source=markdown.lovejade.cn)，为未来而构建的在线 [Markdown](https://nicelinks.site/tags/Markdown/?utm_source=markdown.lovejade.cn&pid=about-arya) 编辑器；轻量且强大：内置粘贴 HTML 自动转换为 Markdown，支持流程图、甘特图、时序图、任务列表，可导出携带样式的图片、PDF、微信公众号特制的 HTML 等等。
+[vditor](https://vditor.vercel.app) 是一款浏览器端的 Markdown 编辑器，支持所见即所得、即时渲染（类似 Typora）和分屏预览模式。它使用 TypeScript 实现，支持原生 JavaScript、Vue、React 和 Angular。您可以使用Vditor Markdown：
 
->**微注**：[Arya](https://markdown.lovejade.cn/?utm_source=markdown.lovejade.cn&pid=about-arya) 另一大优点在于：编辑内容只会在您本地进行保存，不会上传您的数据至服务器，**绝不窥测用户个人隐私，可放心使用**；Github 源码：[markdown-online-editor](https://github.com/nicejade/markdown-online-editor)，部分功能仍在开发🚧，敬请期待。
+> * 整理知识，学习笔记
+> * 发布日记，杂文，所见所想
+> * 撰写发布技术文稿（代码支持）
+> * 撰写发布学术论文（LaTeX 公式支持）
 
-**背景初衷**：早期就有关注到由[黑客派](https://hacpai.com/?utm_source=markdown.lovejade.cn&pid=about-arya)所出品的 [Vditor](https://hacpai.com/tag/vditor?utm_source=markdown.lovejade.cn&pid=about-arya)：一款为未来而构建的下一代 [Markdown](https://nicelinks.site/tags/Markdown/?utm_source=markdown.lovejade.cn&pid=about-arya) 编辑器。然，现而今市面上所存在的 [Markdown](https://nicelinks.site/tags/Markdown/?utm_source=markdown.lovejade.cn) 编辑器，或多或少都存在一些问题（或功能不全，或高级功能收费...），因此基于自身所需，加之 [Vditor](https://hacpai.com/tag/vditor?utm_source=markdown.lovejade.cn) 的强大，就诞生了做一款[在线 Markdown 编辑器](https://markdown.lovejade.cn/?utm_source=github.com) 的念头；取其名曰 [\`Arya\`（二丫）](https://quickapp.lovejade.cn/talking-game-of-thrones/?utm_source=markdown.lovejade.cn)。
+![Vditor-markdown-logo](https://b3logfile.com/tag/Vditor-PE4wB9G.png?imageView2/2/w/96/h/96/q/100)
+--------------------
+## 如何使用
 
-<div align="center">
-  <img src="https://image.nicelinks.site/nicelinks-miniprogram-code.jpeg?imageView2/1/w/250/h/250/interlace/1/ignore-error/1" alt="倾城之链 - 小程序码" />
-</div>
-<br/>
+**微注**：清空目前这份默认文档，即处于可使用态。[vditor](https://vditor.vercel.app) 另一大优点在于：编辑内容只会在您本地进行保存，不会上传您的数据至服务器，**绝不窥测用户个人隐私，可放心使用**；Github 源码：[markdown-online-editor](https://github.com/nicejade/markdown-online-editor)，部分功能仍在开发🚧，敬请期待。
 
-<div align="center">
-  <a href="https://nodejs.org/en/">
-    <img src="https://img.shields.io/badge/node-%3E%3D%208.0.0-green.svg" alt="node version">
-  </a>
-  <a href="https://github.com/nicejade/markdown-online-editor">
-    <img src="https://img.shields.io/github/license/nicejade/markdown-online-editor.svg" alt="LICENSE">
-  </a>
-  <a href="https://nicelinks.site/post/5c16083e819ae45de1453caa">
-    <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat" alt="Prettier">
-  </a>
-  <a href="https://weibo.com/aryamarkdown">
-    <img src="https://img.shields.io/badge/WeiBo-aryamarkdown-red.svg?style=flat" alt="Prettier">
-  </a>
-  <a href="https://www.jeffjade.com/2019/05/31/155-arya-markdown-online-editor/">
-    <img src="https://img.shields.io/badge/chat-on%20blog-brightgreen.svg" alt="Chat On My Blog">
-  </a>
-  <a href="https://aboutme.lovejade.cn/?utm_source=markdown.lovejade.cn&pid=about-arya">
-    <img src="https://img.shields.io/badge/Author-nicejade-%23a696c8.svg" alt="Author nicejade">
-  </a>
-</div>
+默认为[所见即所得](https://hacpai.com/article/1577370404903?utm_source=github.com)模式，可通过 `⌘-⇧-M`（`Ctrl-⇧-M`）进行切换；或通过以下方式：
 
-------
+- 所见即所得：`⌘-⌥-7`（`Ctrl-alt-7`）；
+- 即时渲染：`⌘-⌥-8`（`Ctrl-alt-8`）；
+- 分屏渲染：`⌘-⌥-9`（`Ctrl-alt-9`）；
+
+### PPT 预览
+
+如果您用作 `PPT` 预览（入口在`设置`中），需要注意，这里暂还不能支持各种图表的渲染；您可以使用 `---` 来定义水平方向上幻灯片，用 `--` 来定义垂直幻灯片；更多设定可以参见 [RevealJs 文档](https://github.com/hakimel/reveal.js#table-of-contents)。
+
+---
 
 ## 什么是 Markdown
 
@@ -161,9 +152,9 @@ gantt
 
 | 作品名称        | 在线地址   |  上线日期  |
 | :--------  | :-----  | :----:  |
-| 倾城之链 | [https://nicelinks.site](https://nicelinks.site/?utm_source=markdown.lovejade.cn) |2017-09-20|
-| 晚晴幽草轩 | [https://jeffjade.com](https://jeffjade.com/?utm_source=markdown.lovejade.cn) |2014-09-20|
-| 静轩之别苑 | [http://quickapp.lovejade.cn](http://quickapp.lovejade.cn/?utm_source=markdown.lovejade.cn) |2019-01-12|
+| 云生博客 | [https://www.qikaile.tk](https://www.qikaile.tk) |2020-03-14|
+| 网站监控 | [https://tjys.now.sh](https://tjys.now.sh) |2020-05-16|
+| 云生网盘 | [https://tjys.cf](https://tjys.cf) |2021-05-16|
 
 ### 8. 支持部分站点、视频、音频解析
 
@@ -174,27 +165,3 @@ gantt
 想要查看更详细的语法说明，可以参考这份 [Markdown 资源列表](https://github.com/nicejade/nice-front-end-tutorial/blob/master/tutorial/markdown-tutorial.md)，涵盖入门至进阶教程，以及资源、平台等信息，能让您对她有更深的认知。
 
 总而言之，不同于其它*所见即所得*的编辑器：你只需使用键盘专注于书写文本内容，就可以生成印刷级的排版格式，省却在键盘和工具栏之间来回切换，调整内容和格式的麻烦。**Markdown 在流畅的书写和印刷级的阅读体验之间找到了平衡。** 目前它已经成为世界上最大的技术分享网站 \`GitHub\` 和 技术问答网站 \`StackOverFlow\` 的御用书写格式，而且越发流行，正在在向各行业渗透。
-
----
-
-## 相关链接
-
-- [**倾城之链**](https://nicelinks.site?utm_source=markdown.lovejade.cn&pid=about-arya)
-- [About Me](https://about.me/nicejade?utm_source=markdown.lovejade.cn&pid=about-arya)
-- [个人博客](https://jeffjade.com/nicelinks?utm_source=markdown.lovejade.cn&pid=about-arya)
-- [静轩之别苑](https://quickapp.lovejade.cn/?utm_source=markdown.lovejade.cn&pid=about-arya)
-- [静晴轩别苑](https://nice.lovejade.cn/?utm_source=markdown.lovejade.cn&pid=about-arya)
-- [吾意静晴轩](https://docz.lovejade.cn/?utm_source=markdown.lovejade.cn&pid=about-arya)
-- [天意人间舫](https://blog.lovejade.cn/?utm_source=markdown.lovejade.cn&pid=about-arya)
-- [新浪微博](https://weibo.com/jeffjade?utm_source=markdown.lovejade.cn&pid=about-arya)
-- [知乎主页](https://www.zhihu.com/people/yang-qiong-pu/)
-- [简书主页](https://www.jianshu.com/u/9aae3d8f4c3d)
-- [SegmentFault](https://segmentfault.com/u/jeffjade)
-- [Twitter](https://twitter.com/nicejadeyang)
-- [Facebook](https://www.facebook.com/nice.jade.yang)
-
-| 微信公众号 | 前端微信群 | 推荐 Web 应用 |
-| :-------------: | :-------------: | :-------------: |
-| 😉 静晴轩 | ✨ 大前端联盟   | 🎉 倾城之链 |
-| <img src="https://image.nicelinks.site/qrcode_jqx.jpg" alt="静晴轩" width="200px" /> | <img src="https://image.nicelinks.site/wqycx-weixin.png?ver=1" alt="倾城之链" width="200px" /> | <img src="https://image.nicelinks.site/nice-links.png" width="200px" alt="倾城之链"></img> |
-`
